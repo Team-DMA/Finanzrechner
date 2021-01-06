@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             val yInterestMax = yInterestMaxText.text.toString().toDoubleOrNull();
 
             calculateFormula(startFund, savings, savingsPeriod, yInterestMin, yInterestMax);
+
         }
 
 
