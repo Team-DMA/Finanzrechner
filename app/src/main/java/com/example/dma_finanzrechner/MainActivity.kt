@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
 
         calcBtn.setOnClickListener()
         {
-
             val startFund = startFundText.text.toString();
             val savings = savingsText.text.toString();
             val savingsPeriod = savingsPeriodText.text.toString().toIntOrNull();
